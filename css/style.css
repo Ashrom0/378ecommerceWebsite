@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body{
+    background-color: rgb(31, 15, 3);
+}
+
+h1{
+    color:rgb(187, 97, 24);
+    font-family:'MedievalSharp', cursive !important;
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(187, 97, 24);
+}
+
+li {
+    float: left;
+    display: flex;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(187, 97, 24);
+}
+li {
+    border-right: 1px solid rgb(187, 97, 24);
+}
+
+li:last-child {
+    border-right: none;
+}
+#Header {
+    text-align: center;
+    line-height: 50px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'MedievalSharp', cursive !important;
+    font-size: 75px;
+}
+
+.centered2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'MedievalSharp', cursive !important;
+    font-size: 50px;
+ }
+
+.footer-container{
+    background-color: rgb(31, 15, 3);
+    padding-bottom: 4rem;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    color: rgb(187, 97, 24);
+    background-color: rgb(31, 15, 3);
+    font-family:'MedievalSharp', cursive !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+
+.footer-heading a{
+    color: rgb(187, 97, 24);
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.footer-heading a:hover{
+    color: darkred;
+    transition: 0.3s ease-out;
+}
+
+.prod-items{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(187, 97, 24);
+    color: aliceblue;
+    justify-content: center;
+}
+
+.prod-items th{
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+}
