@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 body{
-    background-color: rgb(31, 15, 3);
+    background-color: rgb(31, 15, 3) !important;
 }
 
 h1{
@@ -53,6 +53,21 @@ li:last-child {
     position: relative;
     text-align: center;
     color: white;
+    margin: 0 auto;
+}
+
+.containerlogin{
+    color: rgb(187, 97, 24);
+    background-color: rgb(66, 32, 7);
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 15px;
+}
+
+.containerlogin btn-reg{
+    color: rgb(187, 97, 24);
+    background: transparent;
 }
 
 .centered {
@@ -63,15 +78,6 @@ li:last-child {
     font-family:'MedievalSharp', cursive !important;
     font-size: 75px;
 }
-
-.centered2 {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family:'MedievalSharp', cursive !important;
-    font-size: 50px;
- }
 
 .footer-container{
     background-color: rgb(31, 15, 3);
@@ -125,4 +131,8 @@ li:last-child {
     padding: 20px;
     width: 300px;
     height: 150px;
+}
+
+.reg-form{
+    display: none;
 }
